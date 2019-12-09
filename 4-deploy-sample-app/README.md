@@ -3,6 +3,8 @@
 
  - In this section we will deploy a demo application: Bookinfo
  
+ <img alt="Image 1.1" src="demo-app.png"  width="75%" height="75%">
+ 
  - The Bookinfo application is broken into four separate microservices:
 
    - productpage: The productpage microservice calls the details and reviews microservices to populate the page.
