@@ -1,6 +1,10 @@
 # INTRODUCTION
 ---
 
+In this section we will create an environment in AWS using cloud9 to perform all the other steps
+
+---
+
 ## ConfigureCloud9 Workspace for the lab
 
 #### Create Cloud9 Environment

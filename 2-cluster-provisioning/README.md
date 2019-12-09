@@ -22,22 +22,22 @@ eksctl create cluster -f ./eks-cluster.yaml
 
  - You can inspect the cluster nodegroups by run:
 ```
-eksctl get nodegroup --cluster=leonj-aws-meetup --region=ap-southeast-1
+eksctl get nodegroup --cluster=leonj-sdp-istio --region=ap-southeast-1
 ```
 
  - You can remove a cluster nodegroup by run:
 ```
-eksctl delete nodegroup <nodegroup-name> --cluster=leonj-aws-meetup --region=ap-southeast-1
+eksctl delete nodegroup <nodegroup-name> --cluster=leonj-sdp-istio --region=ap-southeast-1
 ```
 
  - To scale a node group you can use:
 ```
-eksctl scale nodegroup --cluster=leonj-aws-meetup --nodes=5 --name=linux-nodes
+eksctl scale nodegroup --cluster=leonj-sdp-istio --nodes=5 --name=linux-nodes
 ```
 
  - You can delete the cluster by using the command below:
 ```
-$ eksctl delete cluster --name=leonj-aws-meetup --region=ap-southeast-1
+$ eksctl delete cluster --name=leonj-sdp-istio --region=ap-southeast-1
 ```
 
 ---
