@@ -31,6 +31,11 @@ In this section we will create an environment in AWS using cloud9 to perform all
 rm -vf ${HOME}/.aws/credentials
 ```
 
+ - Install jq
+ ```
+ sudo yum -y install jq gettext bash-completion
+ ```
+
  - Configure our aws cli with our current region as default
 ```
 export ACCOUNT_ID=$(aws sts get-caller-identity --output text --query Account)
