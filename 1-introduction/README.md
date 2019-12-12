@@ -31,7 +31,7 @@ In this section we will create an environment in AWS using cloud9 to perform all
 rm -vf ${HOME}/.aws/credentials
 ```
 
- - Install jq
+ - Install jq, envsubst (from GNU gettext utilities) and bash-completion
  ```
  sudo yum -y install jq gettext bash-completion
  ```
@@ -60,11 +60,6 @@ aws sts get-caller-identity
 ```
 sudo curl --silent --location -o /usr/local/bin/kubectl https://amazon-eks.s3-us-west-2.amazonaws.com/1.14.6/2019-08-22/bin/linux/amd64/kubectl
 sudo chmod +x /usr/local/bin/kubectl
-```
-
- - Install jq, envsubst (from GNU gettext utilities) and bash-completion
-```
-sudo yum -y install jq gettext bash-completion
 ```
 
  - Verify the binaries are in the path and executable
