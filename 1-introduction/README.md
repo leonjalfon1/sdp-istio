@@ -101,7 +101,7 @@ eksctl completion bash >> ~/.bash_completion
 
 ---
 
-#### Install Helm
+#### Install Helm (after the cluster is up and running)
 
  - Download helm
 ```
